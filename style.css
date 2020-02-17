@@ -1,0 +1,346 @@
+
+/*Bannière navbar*/
+
+.navbar {
+	background-color: #e3f2fd;
+}
+
+.home-white {
+	filter: drop-shadow(2px 2px 1px grey);
+	width:35px;
+	margin-left: 30px;
+	
+}
+
+.nav-item {
+	margin-left: 30px;
+	font-family: 'Pacifico', cursive;
+	font-size: 20px;
+}
+
+.navbar-text {
+
+}
+
+#boutonmail{
+	font-family: 'Pacifico', cursive;
+	font-size: 20px;
+}
+
+/*Bannière image*/
+
+.firstblock{
+	background-image: url("images/wave.png");
+	background-size: cover;
+	height: 610px;
+}
+
+#container1{
+	position: relative;
+}
+
+.qrlinkedin{
+	width: 20%;
+	position: absolute;
+	top: 72%;
+	left: 10%;
+}
+
+.imagemoi{
+	margin-top: 80px;
+}
+
+.moi{
+	width: 300px;
+	filter: drop-shadow(2px 2px 5px);
+	margin-top: 20%;
+}
+
+@media only screen and (max-width: 800px) {
+	.moi{
+		width: 200px;
+		filter: drop-shadow(2px 2px 5px);
+		margin-top: 20%;
+	}
+}
+
+@media only screen and (max-width: 570px) {
+	.moi{
+		width: 130px;
+		filter: drop-shadow(2px 2px 5px);
+		position: absolute;
+		top: -65%;
+		margin-right: auto;
+		margin-left: auto;
+		left: 0%;
+		right: 0%;
+	}
+}
+
+.title1{
+	margin-top: 25%;
+}
+
+.kedge{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	width: 300px;
+	filter: drop-shadow(3px 2px 1px white);
+}
+
+h1 {
+	font-family: bebas neue;
+	text-align: center;
+	color: white;
+	filter: drop-shadow(2px 2px 1px black);
+	font-size: 50px;
+}
+
+
+/*Espace expériences pro*/
+
+h2{
+	font-family: bebas neue;
+	margin-left: 35px;
+	margin-top: 5px;
+	font-size: 50px;
+	color: white;
+	filter: drop-shadow(1px 1px 1.5px black);
+}
+
+.sectiontitle{
+	margin-right: auto;
+	width: 300px;
+	border-radius: 10px;
+	background-color: #f3f8ff;
+}
+
+#spacebeforeexperiences{
+	height: 76px;
+}
+
+
+
+.card{
+	height: auto;
+}
+
+/*Espace formation*/
+
+#spacebeforeformation{
+	height: 76px;
+}
+
+
+/*Espace skills*/
+
+#spacebeforeskills{
+	height: 76px;
+}
+
+#containerbuttonskills{
+	margin-top: 50px;
+}
+
+#btnsoftskills{
+	width: 150px;
+	height: 50px;
+	font-size: 30px;
+	font-family: bebas neue;
+}
+
+#btnhardskills{
+	width: 150px;
+	height: 50px;
+	font-size: 30px;
+	font-family: bebas neue;
+}
+
+.softskills{
+	width: 200px;
+	margin-top: 50px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.hardskills{
+	width: 200px;
+	margin-top: 50px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+
+
+/*Espace languages*/
+
+#spacebeforelanguages{
+	height: 76px;
+}
+
+.btn{
+ 	font-family: bebas neue;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	color: white;
+	font-size: 40px;
+	filter: drop-shadow(1px 1px 1px black);
+
+ }
+
+
+ #accordion{
+ 	width: 250px;
+ 	margin-right: auto;
+ 	margin-left: auto;
+ }
+
+
+
+.accordionfrench{
+	margin-top: 50px;
+}
+
+.accordionenglish{
+	margin-top: 50px;
+}
+
+.accordionspanish{
+	margin-top: 50px;
+}
+
+.accordionromanian{
+	margin-top: 50px;
+}
+
+.card-body-language{
+	text-align: center;
+	font-size: 35px;
+	font-family: bebas neue;
+}
+
+#cardheaderfrench{
+	background-image: url("images/French flag.png");
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: opacity(90%);
+    height: 150px;
+}
+
+#cardheaderenglish{
+	background-image: url("images/English flag.png");
+    background-size: cover;
+    filter: opacity(90%);
+    height: 150px;
+    width: 250px;
+}
+
+#cardheaderspanish{
+	background-image: url("images/Spanish flag.png");
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: opacity(90%);
+    height: 150px;
+}
+
+#cardheaderromanian{
+	background-image: url("images/Romanian flag.png");
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: opacity(90%);
+    height: 150px;
+    width: 250px;
+}
+
+/*Espace hobbies avec carousel*/
+
+.soundcloud{
+	margin-top: 100px;
+}
+
+.soundcloud1{
+	margin-top: 20px;
+}
+
+#spacebeforehobbies{
+	height: 76px;
+}
+
+#bd-example{
+	margin-top: 18px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	height: 40%;
+}
+
+.d-block{
+	opacity: 0.5;
+	filter: blur(0.5px);
+	height: auto;
+}
+
+h5{
+	text-shadow: 2px 2px black;
+	font-size: 50px;
+	font-family: bebas neue;
+	margin-top: 30px;
+}
+
+.card-img{
+	margin-top: 50px;
+	max-width: 40%;
+	height: auto;
+	margin-left:75px;
+}
+
+.card{
+	max-width: 100%;
+	border-radius: 2px;
+}
+
+/*Certifications*/
+.degree{
+	width: 500px;
+	margin-top: 100px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 0.5%;
+}
+
+/*espace contact*/
+
+.typeform-widget{
+	margin-top: 100px;
+}
+
+/*espace footer*/
+
+.page-footer{
+	background-color: #E3F2FC;
+	margin-top: 50px;
+}
+
+.linkedinimage{
+	width: 30px;
+	margin-left: 20px;
+}
+
+.linkedintext{
+	margin-left: 10px;
+	text-decoration: none;
+}
